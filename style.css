@@ -53,9 +53,9 @@ body{
 .small{
     margin-left: 20px;
 position: absolute;
-top:50%;
+top:38%;
 width:350px;
-height: 500px;
+height: 450px;
 }
 img{
     width:300px;
@@ -120,7 +120,7 @@ p{
 .smallabout{
     position: absolute;
     left:10%;
-    top:100%;
+    top:116%;
 }
 .about h1{
     margin-bottom: 10px;
@@ -183,6 +183,7 @@ button{
         text-align: center;
         list-style: none;
         background-color: rgb(253, 41, 76);
+        border:1px solid white;
         gap:20px;
        margin-left: auto;
        margin-right: auto;
