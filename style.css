@@ -65,10 +65,7 @@ img{
     cursor: pointer;
     transform: rotateY(180deg);
 }
-.small:hover >.smallcard{
-    cursor: pointer;
-    transform: rotateY(180deg);
-}
+
 .card{
     width:100%;
     height: 100%;
@@ -77,14 +74,7 @@ img{
     transition: transform 1500ms;
     transform-style: preserve-3d;
 }
-.smallcard{
-    width:100%;
-    height: 100%;
-    position: relative;
-    border-radius: 2rem;
-    transition: transform 1500ms;
-    transform-style: preserve-3d;
-}
+
 
 .front,.back{
     width: 100%;
@@ -211,6 +201,18 @@ button{
     .small{
         display: flex;
     }
+    .smallcard{
+    width:100%;
+    height: 100%;
+    position: relative;
+    border-radius: 2rem;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+    .small:hover >.smallcard{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
     .about{
         display: none;
     }
