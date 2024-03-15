@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,rgb(251, 251, 131),rgb(161, 250, 161));
+}
+.container{
+    margin-top: 20%;
+}
+p{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 28px;
+    color: rgb(92, 17, 42);
+    animation: slide 1s;
+}
+@keyframes slide{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(0deg);
+    }
+    
+}
