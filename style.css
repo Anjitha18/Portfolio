@@ -50,13 +50,7 @@ body{
     width:350px;
     height: 500px;
 }
-.small{
-    margin-left: 20px;
-position: absolute;
-top:36%;
-width:350px;
-height: 450px;
-}
+
 img{
     width:300px;
     height: 450px;
@@ -174,7 +168,7 @@ button{
     .hamburger .menu-link{
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 40px;
     }
     .hamburger .menu-link li{
         text-decoration: none;
@@ -202,18 +196,34 @@ button{
     .small{
         display: flex;
     }
+    .small{
+        margin-left: 20px;
+    position: absolute;
+    top:38%;
+    width:350px;
+    height: 450px;
+    }
+    @keyframes slide{
+        from{
+            transform: translateX(200px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+        
+    }
     .smallcard{
-    width:100%;
-    height: 100%;
-    position: relative;
-    border-radius: 2rem;
-    transition: transform 1500ms;
-    transform-style: preserve-3d;
-}
+        width:100%;
+        height: 100%;
+        position: relative;
+        border-radius: 2rem;
+        transition: transform 1500ms;
+        transform-style: preserve-3d;
+    }
     .small:hover >.smallcard{
-    cursor: pointer;
-    transform: rotateY(180deg);
-}
+        cursor: pointer;
+        transform: rotateY(180deg);
+    }
     .about{
         display: none;
     }
